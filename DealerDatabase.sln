@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerDatabase.Import", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerDatabase.Web", "src\DealerDatabase.Web\DealerDatabase.Web.csproj", "{22E2089F-D18B-48D7-B1C7-F423F57C32A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{3A5DCAA8-4203-4970-87B8-76C2D072A2C2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		DECISIONS.md = DECISIONS.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

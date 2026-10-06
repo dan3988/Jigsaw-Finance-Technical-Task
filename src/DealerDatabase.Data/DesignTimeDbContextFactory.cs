@@ -8,12 +8,12 @@ namespace DealerDatabase.Data;
 /// </summary>
 public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<DealerDbContext>
 {
-	public DealerDbContext CreateDbContext(string[] args)
-	{
-		var options = new DbContextOptionsBuilder<DealerDbContext>()
-			.UseSqlite($"Data Source={SolutionPaths.DatabaseFile}")
-			.Options;
+    public DealerDbContext CreateDbContext(string[] args)
+    {
+        var options = new DbContextOptionsBuilder<DealerDbContext>()
+            .UseSqlite($"Data Source={SolutionPaths.DatabaseFile}")
+            .Options;
 
-		return new DealerDbContext(options);
-	}
+        return new DealerDbContext(options);
+    }
 }
